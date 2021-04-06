@@ -1,0 +1,45 @@
+.slider
+    overflow: hidden
+    &__blocks
+        padding-bottom: 50px
+    &__main
+        position: relative
+        display: flex
+    &__img
+        width: 100%
+        min-height: 340px
+        height: 100%
+        object-fit: cover
+    &__text
+        position: absolute
+        bottom: 0
+        font-size: 24px
+        line-height: 24px
+        color: $black
+        +Gilroy-Bold
+        text-transform: uppercase
+        padding: 15px 10px
+        &-blue
+            color: $blue
+        &-white
+            color: $white
+    &__footer
+        padding: 0 10px
+        min-height: 60px
+        background-color: $blue
+        color: $white
+        display: flex
+        flex-direction: column
+        justify-content: center
+    &__title
+        font-size: 14px
+        line-height: 100%
+        +Gilroy-SemiBold
+        text-transform: uppercase
+        letter-spacing: 2px
+    &__subtitle
+        font-size: 14px
+        line-height: 100%
+        text-transform: uppercase
+        letter-spacing: 1px
+        margin-top: 2px
