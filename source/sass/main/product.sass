@@ -1,0 +1,77 @@
+.product
+    &__picture-title
+        display: block
+        font-size: 24px
+        line-height: 100%
+        letter-spacing: 1px
+        text-transform: uppercase
+        margin-bottom: 20px
+    &__img
+        max-height: 300px
+        object-fit: contain
+        width: 100%
+    &__title
+        display: none
+    &__text
+        margin: 14px 0
+        font-size: 12px
+        line-height: 18px
+        +Gilroy-UltraLight
+        color: $grey
+    &__wrapper
+        display: flex
+        justify-content: space-between
+    &__button
+        height: 48px
+        +Gilroy-SemiBold
+        font-size: 14px
+        line-height: 100%
+        letter-spacing: 2px
+        color: $grey-blue
+        padding: 0px 32px
+        display: flex
+        justify-content: center
+        align-items: center
+        border-radius: 40px
+        border: 2px solid $grey-blue
+        text-transform: uppercase
+    &__prices
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+    &__price
+        font-size: 24px
+        line-height: 100%
+        letter-spacing: 2px
+        text-transform: uppercase
+        +Gilroy-Bold
+        color: $grey-blue
+        &--old
+            font-size: 14px
+            line-height: 100%
+            letter-spacing: 0
+            text-decoration-line: line-through
+            color: $grey
+            +Gilroy-Regular
+    &__choice
+        margin: 40px 0 20px
+        font-size: 24px
+        line-height: 100%
+        letter-spacing: 2px
+        text-transform: uppercase
+        color: $grey
+        +Gilroy-SemiBold
+    &__colors
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+    &__color
+        height: 50px
+        width: 20%
+        display: flex
+        justify-content: center
+        align-items: center
+    &__img-color
+        width: 45px
+        height: 45px
+        border-radius: 50%

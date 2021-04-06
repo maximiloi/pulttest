@@ -493,3 +493,93 @@ p {
     color: #1d9cd8;
     text-transform: uppercase;
     letter-spacing: 2px; }
+
+.product__picture-title {
+  display: block;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 20px; }
+
+.product__img {
+  max-height: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%; }
+
+.product__title {
+  display: none; }
+
+.product__text {
+  margin: 14px 0;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: Gilroy-UltraLight, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #0e0e0e; }
+
+.product__wrapper {
+  display: flex;
+  justify-content: space-between; }
+
+.product__button {
+  height: 48px;
+  font-family: Gilroy-SemiBold, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  color: #8ecae4;
+  padding: 0px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  border: 2px solid #8ecae4;
+  text-transform: uppercase; }
+
+.product__prices {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.product__price {
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: Gilroy-Bold, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #8ecae4; }
+  .product__price--old {
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0;
+    -webkit-text-decoration-line: line-through;
+            text-decoration-line: line-through;
+    color: #0e0e0e;
+    font-family: Gilroy-Regular, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+.product__choice {
+  margin: 40px 0 20px;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #0e0e0e;
+  font-family: Gilroy-SemiBold, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+.product__colors {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.product__color {
+  height: 50px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.product__img-color {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%; }
