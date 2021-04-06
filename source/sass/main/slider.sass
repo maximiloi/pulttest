@@ -1,5 +1,4 @@
 .slider
-    overflow: hidden
     &__blocks
         padding-bottom: 50px
     &__main
@@ -14,15 +13,27 @@
         position: absolute
         bottom: 0
         font-size: 24px
-        line-height: 24px
+        line-height: 100%
         color: $black
         +Gilroy-Bold
         text-transform: uppercase
         padding: 15px 10px
+        &--right
+            right: 0
         &-blue
             color: $blue
         &-white
             color: $white
+        &--discount
+            font-size: 30px
+            color: $white
+            line-height: 100%
+            letter-spacing: 2px
+            +Gilroy-Regular
+            &-big
+                font-size: 98px
+                line-height: 100%
+                +Gilroy-SemiBold
     &__footer
         padding: 0 10px
         min-height: 60px

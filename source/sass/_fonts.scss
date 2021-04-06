@@ -38,6 +38,10 @@
     /* Chrome < 4, Legacy iOS */
 }
 
+@mixin Gilroy-Regular {
+    font-family: Gilroy-Regular, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 @mixin Gilroy-Bold {
     font-family: Gilroy-Bold, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
