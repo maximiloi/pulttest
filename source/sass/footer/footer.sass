@@ -1,0 +1,63 @@
+.footer
+    margin: 80px 12px 20px
+    &__logo
+        &-link
+            display: flex
+        &-img
+            width: 86px
+    &__phone
+        margin-top: 10px
+    &__number
+        font-size: 27px
+        line-height: 100%
+        letter-spacing: 1px
+        text-transform: uppercase
+        color: $black
+        &:hover
+            text-decoration: underline
+    &__text
+        margin-top: 10px
+        margin-bottom: 1px
+        font-size: 12px
+        line-height: 100%
+        text-transform: uppercase
+    &__menu
+        margin-top: 40px
+        display: flex
+    &__item
+        display: flex
+        margin-bottom: 20px
+    &__link
+        font-size: 12px
+        line-height: 100%
+        padding-right: 8px
+        text-transform: uppercase
+        color: $black
+        text-decoration: none
+        &--icon
+            position: relative
+            &:before
+                content: ""
+                position: absolute
+                right: -7px
+                bottom: 8px
+                transform: translate(-10%, 25%)
+                width: 6px
+                height: 6px
+                border-right: 1px solid $grey
+                border-top: 1px solid $grey
+            &:after
+                content: ""
+                position: absolute
+                right: -7px
+                bottom: 4px
+                transform: rotate(45deg) translate(-250%, 35%)
+                width: 1px
+                height: 10px
+                background: $grey
+    &__copyring
+        margin-top: 20px
+        font-size: 12px
+        line-height: 100%
+        text-transform: uppercase
+        color: $black
