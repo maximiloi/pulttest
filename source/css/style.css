@@ -366,6 +366,10 @@ template {
 .swiper-container-horizontal > .swiper-pagination-bullets {
   bottom: 16px; }
 
+@media (min-width: 768px) {
+  .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 10px; } }
+
 *,
 ::after,
 ::before {
@@ -412,6 +416,10 @@ p {
 
 .main {
   margin: 0 12px; }
+
+@media (min-width: 768px) {
+  .main {
+    margin: 0 24px; } }
 
 .slider__blocks {
   padding-bottom: 50px; }
@@ -475,6 +483,18 @@ p {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-top: 2px; }
+
+@media (min-width: 768px) {
+  .slider__text {
+    padding: 15px 20px; }
+    .slider__text--discount {
+      font-size: 24px; }
+      .slider__text--discount-big {
+        font-size: 132px; }
+  .slider__footer {
+    padding: 0 20px; }
+  .slider__title {
+    letter-spacing: 2.3px; } }
 
 .menu {
   margin-top: 40px; }

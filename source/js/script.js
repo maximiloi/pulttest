@@ -5,8 +5,9 @@ const swiper = new Swiper('.swiper-container', {
         el: '.swiper-pagination',
         clickable: true,
     },
-    autoplay: {
-        delay: 4000,
-        disableOnInteraction: false,
-    },
+    autoplay: false,
+    // {
+    //     delay: 4000,
+    //     disableOnInteraction: false,
+    // },
 });
