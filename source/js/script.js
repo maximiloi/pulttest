@@ -1,3 +1,4 @@
+// swiper settings
 const swiper = new Swiper('.swiper-container', {
     lazy: true,
     loop: true,
@@ -5,9 +6,18 @@ const swiper = new Swiper('.swiper-container', {
         el: '.swiper-pagination',
         clickable: true,
     },
-    autoplay: false,
-    // {
-    //     delay: 4000,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+    },
+});
+
+// смена фото в меню
+const menuLink = document.querySelectorAll('.menu__link');
+const menuImg = document.querySelector('.menu__img');
+
+menuLink.forEach((item) => {
+    item.addEventListener('mouseover', () => {
+        menuImg.attributes.src.value = item.dataset.images;
+    });
 });
