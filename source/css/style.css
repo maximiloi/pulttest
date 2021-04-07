@@ -604,6 +604,48 @@ p {
   height: 45px;
   border-radius: 50%; }
 
+@media (min-width: 768px) {
+  .product {
+    padding-top: 20px; }
+    .product__picture-title {
+      display: none; }
+    .product__card {
+      display: flex;
+      flex-wrap: wrap; }
+    .product__img {
+      max-height: 350px; }
+    .product__picture {
+      max-height: 450px;
+      height: 100%;
+      width: 50%;
+      overflow: hidden; }
+    .product__description {
+      width: 50%;
+      padding-left: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+    .product__title {
+      display: block;
+      margin: 0;
+      font-size: 24px;
+      line-height: 100%;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-family: Gilroy-SemiBold, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+    .product__text {
+      margin: 20px 0; }
+    .product__button {
+      padding: 0 42px; }
+    .product__grid {
+      width: 100%; }
+    .product__color {
+      width: 14.25%;
+      height: 70px; }
+    .product__img-color {
+      width: 60px;
+      height: 60px; } }
+
 .footer {
   margin: 80px 12px 20px; }
   .footer__logo-link {

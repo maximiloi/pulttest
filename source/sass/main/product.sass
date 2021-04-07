@@ -75,3 +75,45 @@
         width: 45px
         height: 45px
         border-radius: 50%
+
+@media (min-width: $tablet-width)
+    .product
+        padding-top: 20px
+        &__picture-title
+            display: none
+        &__card
+            display: flex
+            flex-wrap: wrap
+        &__img
+            max-height: 350px
+        &__picture
+            max-height: 450px
+            height: 100%
+            width: 50%
+            overflow: hidden
+        &__description
+            width: 50%
+            padding-left: 40px
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+        &__title
+            display: block
+            margin: 0
+            font-size: 24px
+            line-height: 100%
+            letter-spacing: 2px
+            text-transform: uppercase
+            +Gilroy-SemiBold
+        &__text
+            margin: 20px 0
+        &__button
+            padding: 0 42px
+        &__grid
+            width: 100%
+        &__color
+            width: 14.25%
+            height: 70px
+        &__img-color
+            width: 60px
+            height: 60px
