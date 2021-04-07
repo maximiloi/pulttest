@@ -643,3 +643,18 @@ p {
       justify-content: space-between; }
     .footer__copyring {
       margin-top: 40px; } }
+
+@media (min-width: 1200px) {
+  .footer {
+    margin: 220px 0 40px; }
+    .footer__contacts {
+      flex-direction: row; }
+    .footer__logo {
+      margin-right: 20px; }
+    .footer__phone {
+      margin-top: 0; }
+    .footer__link {
+      font-size: 14px; }
+    .footer__copyring {
+      margin-top: 80px;
+      font-size: 14px; } }
