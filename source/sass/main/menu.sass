@@ -1,5 +1,7 @@
 .menu
     margin-top: 40px
+    &__img
+        display: none
     &__list
         display: flex
         flex-direction: column
@@ -15,3 +17,17 @@
         color: $blue
         text-transform: uppercase
         letter-spacing: 2px
+
+@media (min-width: $desktop-width)
+    .menu
+        display: flex
+        &__list
+            width: 50%
+        &__item
+            align-self: flex-start
+            padding: 10px 0
+        &__link
+            font-size: 20px
+        &__img
+            display: block
+            width: 50%
